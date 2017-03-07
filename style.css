@@ -1,1 +1,10 @@
 
+#pyramidSlide {
+  line-height: 0;
+  font-size: 30px;
+}
+
+body {
+  font-family: "Courier New", monospace;
+  text-align: center;
+}
