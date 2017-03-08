@@ -9,13 +9,22 @@
 </head>
 <body>
 
+  <header>
+    <h1>Pyramid Slide</h1>
+  </header>
+
+<div id="main">
+
+
+  <section id="menu">
+
 
     <label>Brick Symbol:</label>
       <select id="brickSelect" onchange="drawPyramid();">
-        <option value="#">#</option>
-        <option value="@">@</option>
-        <option value="X">X</option>
-        <option value="$">$</option>
+        <option value="#" class="brick">#</option>
+        <option value="@" class="brick">@</option>
+        <option value="X" class="brick">X</option>
+        <option value="$" class="brick">$</option>
       </select>
 
     <label>How High?</label>
@@ -23,7 +32,9 @@
         oninput="drawPyramid(this.value)" onchange="heightOutput.value = heightSlider.value">
       <output id="heightOutput" id="heightOut">5</output>
 
-      <div id="pyramidSlide"></div>
+  </section>
 
+    <div id="pyramidSlide"></div>
+</div>
 </body>
 </html>
