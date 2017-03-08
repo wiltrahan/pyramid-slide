@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="app.js" type="text/javascript"></script>
 </head>
-<body>
+<body onload="drawPyramid(5)">
 
   <header>
     <h1>Pyramid Slide</h1>
@@ -20,7 +20,7 @@
 
 
     <label>Brick Symbol:</label>
-      <select id="brickSelect" onchange="drawPyramid();">
+      <select id="brickSelect" onchange="drawPyramid(heightOutput.value);">
         <option value="#" class="brick">#</option>
         <option value="@" class="brick">@</option>
         <option value="X" class="brick">X</option>
