@@ -18,7 +18,7 @@ header {
   height: 80px;
   padding: 20px;
   color: #ECF0F1;
-  border: 2px solid #ACCFCC;
+  border: 2px solid #595241;
   border-radius: 5px;
 }
 label {
@@ -28,7 +28,7 @@ label {
   font-size: 1.5em;
 }
 #main {
-  border: 2px solid #8A0917;
+  border: 2px solid #595241;
   border-radius: 5px;
   background-color: #CCCCCC;
   color: #595241;
